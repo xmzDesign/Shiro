@@ -12,7 +12,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
  -->
 
     <select id="getByUsername" parameterType="String" resultType="User">
-        select * from sys_user where username=#{username}
+        select * from t_user where username=#{username}
     </select>
 
     <select id="getRoles" parameterType="String" resultType="String">
